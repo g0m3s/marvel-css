@@ -1,0 +1,83 @@
+#fora1{
+
+    --cor1: red;
+    --cor2: #c10101;
+
+    width: 250px;
+    height: 250px;
+
+}
+
+#fora2{
+
+    --cor1: white;
+    --cor2: white;
+    width: 200px;
+    height: 200px;
+
+}
+
+#fora3{
+
+    --cor1: red;
+    --cor2: #c10101;
+    width: 150px;
+    height: 150px;
+
+}
+
+#fora4{
+
+    --cor1: blue;
+    --cor2: #02264D;
+    width: 100px;
+    height: 100px;
+
+
+}
+
+#estrela{
+
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid white;
+    transform: rotate(180DEG);
+    width: 100px;
+
+}
+
+#estrela:before{
+
+    position: absolute;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid white;
+    transform: rotate(70DEG);
+    content: "";
+    left: -50px;
+    
+}
+
+#estrela:after{
+
+    position: absolute;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid white;
+    transform: rotate(-70DEG);
+    content: "";
+    left: -48.8px;
+
+}
+
+.circulo{
+
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto ;
+    border: .5px solid #282828;
+    background: linear-gradient(to right, var(--cor1),var(--cor2),var(--cor1));
+
+}
